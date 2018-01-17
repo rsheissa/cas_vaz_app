@@ -23,7 +23,9 @@
             </div>
 
             <div id="navigation">
-                <asp:LoginStatus ID="LoginInfo" runat="server" LogoutAction="Redirect" LogoutPageUrl="~/Default.aspx" />
+                <div>
+                    <asp:LoginStatus ID="LoginInfo" runat="server" LogoutAction="Redirect" LogoutPageUrl="~/Default.aspx" />
+                </div>
                 TODO: Menu will go here...
             </div>
 
