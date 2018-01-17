@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Sistemas Cas-Vaz</title>
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <form id="form1" runat="server">
+
+            <div id="header">
+                <span class="title">Sistemas Cas-Vaz</span>
+                <span class="breadcrumb">TODO: Breadcrumb will go here...</span>
+            </div>
+
+            <div id="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    <!-- Page-specific content will go here -->
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="navigation">
+                TODO: Menu will go here...
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
