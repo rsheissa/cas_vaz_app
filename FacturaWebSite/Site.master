@@ -4,18 +4,29 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <title>Sistemas Cas-Vaz</title>
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+    <div id="wrapper">
+        <form id="form1" runat="server">
+
+            <div id="header">
+                <span class="title">Sistemas Cas-Vaz</span>
+                <span class="breadcrumb">TODO: Breadcrumb will go here...</span>
+            </div>
+
+            <div id="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    <!-- Page-specific content will go here -->
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="navigation">
+                TODO: Menu will go here...
+            </div>
+
+        </form>
     </div>
-    </form>
 </body>
 </html>
