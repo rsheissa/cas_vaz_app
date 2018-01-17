@@ -14,7 +14,16 @@
         <li>Importar y exportar la base de datos</li>
     </ul>
 
-    <asp:Login ID="Login1" runat="server"></asp:Login>
+    <div>
+        <p>Ingrese sus datos en las casillas correspondientes</p>
+        <asp:Login ID="LoginControl" runat="server" OnAuthenticate="LoginControl_Authenticate"></asp:Login>
+    </div>
+
+    <div>
+        <br />
+        <asp:Label ID="ErrorStatus" runat="server" Text=""></asp:Label>
+     </div>
+    
 
 </asp:Content>
 
