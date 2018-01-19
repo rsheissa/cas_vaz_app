@@ -11,7 +11,7 @@ body {
 	background-color: #FFFFFF;
 	color: #000000;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	border-top: 2px solid #B51032;
+	border-top: 2px solid #3210B5;
 }
 
 /* Header Section */
@@ -61,7 +61,7 @@ body {
 	padding: 0;
 }
 #navigation li {
-	border-bottom: 1px solid #ED9F9F;
+	border-bottom: 1px solid #9F9FED;
 }
 #navigation li a  {
 	display: block;

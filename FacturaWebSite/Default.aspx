@@ -16,7 +16,11 @@
 
     <div>
         <p>Ingrese sus datos en las casillas correspondientes</p>
-        <asp:Login ID="LoginControl" runat="server" OnAuthenticate="LoginControl_Authenticate"></asp:Login>
+        <asp:Login ID="LoginControl" runat="server"
+            TitleText=""
+            UserNameLabelText="Usuario:"
+            LoginButtonText="Ingresar"
+            OnAuthenticate="LoginControl_Authenticate"></asp:Login>
     </div>
 
     <div>

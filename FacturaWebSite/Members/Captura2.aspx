@@ -1,5 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Captura2.aspx.cs" Inherits="Captura2" %>
-<%@ MasterType VirtualPath="~/Site.master" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Members/Members.master" AutoEventWireup="true" CodeFile="Captura2.aspx.cs" Inherits="Captura2" %>
+<%@ MasterType VirtualPath="~/Members/Members.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
     <div>
