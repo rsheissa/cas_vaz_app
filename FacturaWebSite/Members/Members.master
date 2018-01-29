@@ -27,6 +27,9 @@
                 <ul>
                     <li><asp:HyperLink runat="server" ID="lnkManual" NavigateUrl="~/Members/Captura.aspx">Manual</asp:HyperLink></li>
                     <li><asp:HyperLink runat="server" ID="lnkAuto" NavigateUrl="~/Members/Captura2.aspx">Automatico</asp:HyperLink></li>
+                    <li><asp:HyperLink runat="server" ID="lnkConsulta" NavigateUrl="~/Members/Consulta.aspx">Consulta</asp:HyperLink></li>
+                    <li><asp:HyperLink runat="server" ID="lnkReporte" NavigateUrl="~/Members/Reporte.aspx">Reporte</asp:HyperLink></li>
+                    <li><asp:HyperLink runat="server" ID="lnkAdmin" NavigateUrl="~/Members/Admin.aspx">Admin</asp:HyperLink></li>
                     <li><asp:HyperLink runat="server" ID="lnkSessionOut" NavigateUrl="~/Logout.aspx">Salir</asp:HyperLink></li>
                 </ul>
 

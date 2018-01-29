@@ -20,7 +20,7 @@
                     RFC Emisor
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:TextBox ID="RfcETextBox" runat="server" Width="145" Font-Size="Large" Style="margin-left">
+                    <asp:TextBox ID="RfcETextBox" runat="server" Width="145" Font-Size="Large" Style="margin-left:auto">
                     </asp:TextBox>
                 </asp:TableCell>
             </asp:TableRow>
@@ -29,7 +29,7 @@
                     RFC Receptor
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:TextBox ID="RfcRTextBox" runat="server" Width="145" Font-Size="Large" Style="margin-left">
+                    <asp:TextBox ID="RfcRTextBox" runat="server" Width="145" Font-Size="Large" Style="margin-left:auto">
                     </asp:TextBox>
                 </asp:TableCell>
             </asp:TableRow>
@@ -38,7 +38,7 @@
                     UUID
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:TextBox ID="UuidTextBox" runat="server" Width="360" Font-Size="Large" Style="margin-left">
+                    <asp:TextBox ID="UuidTextBox" runat="server" Width="360" Font-Size="Large" Style="margin-left:auto">
                     </asp:TextBox>
                 </asp:TableCell>
             </asp:TableRow>
@@ -47,7 +47,7 @@
                     Total $
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:TextBox ID="TotalTextBox" runat="server" Width="120" Font-Size="Large" Style="margin-left">
+                    <asp:TextBox ID="TotalTextBox" runat="server" Width="120" Font-Size="Large" Style="margin-left:auto">
                     </asp:TextBox>
                 </asp:TableCell>
             </asp:TableRow>
@@ -56,7 +56,7 @@
                     Identificador
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:TextBox ID="IdentiTextBox" runat="server" Width="220" Font-Size="Large" Style="margin-left">
+                    <asp:TextBox ID="IdentiTextBox" runat="server" Width="220" Font-Size="Large" Style="margin-left:auto">
                     </asp:TextBox>&nbsp;&nbsp;
                     <asp:Button ID="BorraIdenti" runat="server" Text="Limpiar Campo" Font-Size="Large" OnClick="BorraIdenti_Click" />
                 </asp:TableCell>
@@ -66,7 +66,7 @@
                     QR Code
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:TextBox ID="QrTextBox" runat="server" OnTextChanged="Procesar_Click" AutoPostBack="true" Width="965" Font-Size="Large" Style="margin-left">
+                    <asp:TextBox ID="QrTextBox" runat="server" OnTextChanged="Procesar_Click" AutoPostBack="true" Width="965" Font-Size="Large" Style="margin-left:auto">
                     </asp:TextBox>
                 </asp:TableCell>
             </asp:TableRow>
