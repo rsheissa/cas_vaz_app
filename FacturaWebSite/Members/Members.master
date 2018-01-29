@@ -13,7 +13,10 @@
 
             <div id="header">
                 <span class="title">Sistemas Cas-Vaz</span>
-                <span class="breadcrumb">TODO: Breadcrumb will go here...</span>
+                <span class="breadcrumb">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath>
+                </span>
             </div>
 
             <div id="content">

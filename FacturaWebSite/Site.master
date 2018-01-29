@@ -13,7 +13,7 @@
 
             <div id="header">
                 <span class="title">Sistemas Cas-Vaz</span>
-                <span class="breadcrumb">TODO: Breadcrumb will go here...</span>
+                <%--<span class="breadcrumb">TODO: Breadcrumb will go here...</span>--%>
             </div>
 
             <div id="content">
