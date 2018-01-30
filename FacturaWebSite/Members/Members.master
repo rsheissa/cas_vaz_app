@@ -13,10 +13,10 @@
 
             <div id="header">
                 <span class="title">Sistemas Cas-Vaz</span>
-                <span class="breadcrumb">
+                <%--<span class="breadcrumb">
                     <asp:SiteMapPath ID="SiteMapPath1" runat="server">
                     </asp:SiteMapPath>
-                </span>
+                </span>--%>
             </div>
 
             <div id="content">

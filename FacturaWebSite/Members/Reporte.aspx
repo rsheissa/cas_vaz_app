@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Members/Members.master" AutoEventWireup="true" CodeFile="Reporte.aspx.cs" Inherits="Reporte" %>
+﻿<%@ Page Title="Reporte" Language="C#" MasterPageFile="~/Members/Members.master" AutoEventWireup="true" CodeFile="Reporte.aspx.cs" Inherits="Reporte" %>
 <%@ MasterType VirtualPath="~/Members/Members.master"%>
 
 <%-- Agregue aquí los controles de contenido --%>
